@@ -206,6 +206,9 @@ ul li a:hover {
     border-radius: 12px;
     padding: 40px 30px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .pricing-card:hover {
@@ -287,4 +290,113 @@ ul li a:hover {
     border: 2px solid #0D1B2A;
     color: #0D1B2A;
     background-color:#F8F9FB ;
+}
+/* ai section */
+
+.ai-section {
+    background: linear-gradient(135deg, #f8f9ff 0%, #ede7f6 100%);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.ai-container h2 {
+    font-size: 42px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #4361ee;
+}
+
+.ai-container>p {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 40px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 60px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 14px 16px;
+    border: 2px solid #4361ee;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.newsletter-form input:focus {
+    border-color: #3050d5;
+}
+
+.newsletter-form button {
+    padding: 14px 32px;
+}
+
+.community-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.stat {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.stat h3 {
+    font-size: 36px;
+    color: #4361ee;
+    margin-bottom: 8px;
+}
+
+.stat p {
+    color: #666666;
+    font-size: 14px;
+}
+/* footer */
+.footer-parent {
+    background-color: #0D1B2A;
+    color: white;
+    padding: 60px 0 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+footer span {
+    font-size: 30px;
+}
+
+footer span :hover{
+    background-color: #3050d5;
+    cursor: pointer;
+
+}
+
+hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+.footer-bottom {
+    text-align: center;
+    color: #ffffff ;
+    font-size: 15px;
+    padding: 20px 0;
 }
