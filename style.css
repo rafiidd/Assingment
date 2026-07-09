@@ -55,6 +55,7 @@ ul li a {
 ul li a:hover {
     color: #4361ee;
 }
+
 /* hero sectionn */
 .hero-parent-root {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(33, 23, 34, 0.5)), url('./assets/banner.jpg');
