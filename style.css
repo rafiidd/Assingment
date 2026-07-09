@@ -30,6 +30,24 @@ body {
     background-color: #3050d5;
 }
 
+.outline-button {
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #4361ee;
+    border: 2px solid #4361ee;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.outline-button:hover {
+    background-color: #f0f4ff;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -37,7 +55,7 @@ nav {
     padding: 16px 0;
 }
 
-ul {
+nav ul {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
@@ -97,4 +115,176 @@ ul li a:hover {
     font-size: 24px;
     padding: 18px 50px;
     margin-top: 300px;
+
+    /* speaker section */
+}
+
+.speakers-parent {
+    padding: 80px 0;
+}
+
+.speakers-parent h2 {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+.speakers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.speaker-card {
+    text-align: center;
+    cursor: pointer;
+    border-radius: 12px;
+    overflow: hidden;
+    border: #E5E7EB solid 1px;
+}
+
+.speaker-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.speaker-info {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: left;
+}
+
+.speaker-category {
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.speaker-card h3 {
+    font-size: 20px;
+    margin: 12px 0 8px 0;
+    color: #0D1B2A;
+}
+
+.speaker-card p {
+    color: #575757;
+    font-size: 14px;
+}
+
+/* pricing section */
+.pricing-parent {
+    padding: 80px 0;
+
+}
+
+.pricing-parent h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.pricing-subtitle {
+    text-align: center;
+    color: #575757;
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.pricing-card {
+    background-color: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 40px 30px;
+    text-align: left;
+}
+
+.pricing-card:hover {
+    transform: translateY(-8px);
+}
+
+.pricing-card h3 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #888888;
+}
+
+.pricing-card h4 {
+    font-size: 13px;
+    margin-bottom: 16px;
+    color: #888888;
+    padding-left: 8px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E5E7EB;
+    font-weight: 300;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0D1B2A;
+    margin-bottom: 16px;
+}
+
+.features {
+    margin-bottom: 32px;
+    text-align: left;
+    list-style: disc;
+    padding: 5px 0px 0px 5px;
+
+}
+.pricing-card button {
+    margin-top: auto;
+    align-self: center;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.features li {
+    padding: 8px 0;
+    color: #666666;
+    font-size: 14px;
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.features li::marker {
+    color: #2563EB;
+}
+.pro-card {
+    background-color: #0D1B2A;
+    color: white;
+    border: none;
+}
+.pro-card h3,
+.pro-card .price {
+    color: white;
+}
+.pro-card h4 {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 250;
+}
+.pro-card li {
+    color: #af9d9d;
+    font-size: 14px;
+    font-weight: 300;
+}
+.team-card {
+    background-color: #F8F9FB;
+}
+.team-card button{
+    border: 2px solid #0D1B2A;
+    color: #0D1B2A;
+    background-color:#F8F9FB ;
 }
